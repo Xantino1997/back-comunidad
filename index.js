@@ -19,7 +19,7 @@ const jwtSecretKey = process.env.SECRET_KEY; // Cambia esta clave por una segura
 
 // Configuración de middleware
 app.use(cors({
-  origin: "https://comunidad-mocovi.vercel.app,https://centromocovi.vercel.app",
+  origin: "https://centromocovi.vercel.app",
   credentials: true
 }));
 
