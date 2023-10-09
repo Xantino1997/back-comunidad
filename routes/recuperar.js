@@ -18,7 +18,7 @@ RecuperoRouter.post("/recuperar-password", (req, res) => {
     const { email, token } = req.body;
   
     const mailOptions = {
-      from: "tu_correo@gmail.com", // Reemplaza con tu dirección de correo
+      from: "Recuperacion Token", // Reemplaza con tu dirección de correo
       to: email,
       subject: "Recuperación de Contraseña",
       text: `Tu código de recuperación de contraseña es: ${token}`,
