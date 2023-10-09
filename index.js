@@ -25,7 +25,7 @@ const urlencodedParser = bodyParser.urlencoded({
 });
 app.use(
   cors({
-    origin: "https://centromocovi.vercel.app",
+    origin: "http://centromocovi.vercel.app",
     credentials: true,
   })
 );
