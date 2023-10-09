@@ -25,7 +25,10 @@ const urlencodedParser = bodyParser.urlencoded({
 });
 app.use(
   cors({
+<<<<<<< HEAD
     // origin: "http://localhost:3000",
+=======
+>>>>>>> fc66e69081b542eb780a8501a5932df9650fa038
     // origin: "https://centromocovi.vercel.app",
     credentials: true,
   })
