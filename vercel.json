@@ -1,5 +1,4 @@
 {
-  
   "version": 2,
   "builds": [
     {
@@ -19,7 +18,7 @@
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "*, https://res.cloudinary.com/dcwwhkqb2/image/upload ,https://centromocovi.vercel.app"
+          "value": "*, https://res.cloudinary.com/dcwwhkqb2/image/upload, https://centromocovi.vercel.app"
         },
         {
           "key": "Access-Control-Allow-Methods",
